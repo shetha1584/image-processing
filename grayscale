@@ -1,0 +1,20 @@
+import 
+cv2 
+
+path =  
+"./task_1/tom.jpg" 
+
+image = cv2.imread(path) 
+image_gray = cv2.cvtColor(image,cv2.COLOR_BGR2GRAY) 
+
+cv2.imshow( 
+"Output" 
+cv2.imshow( 
+# converting image to Grayscale 
+,image) 
+"Output_gray" 
+,image_gray) 
+ 
+cv2.waitKey() 
+
+cv2.destroyAllWindows()
